@@ -30,6 +30,7 @@
     align-items: center;
 }
 .navbar__icons{
+    margin-top: 5px;
     display: gird;
     grid-template-columns: 1fr 1fr;
 }
@@ -51,7 +52,7 @@
     top:0;
     right:0;
     left: 0;
-    background-image: url("/src/assets/images/portada.jpeg") !important;
+    background-image: url("/src/assets/images/portada.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -81,16 +82,18 @@
 }
 .container__present--letter button{
     height: 30px;
-    width: 150px;
+    width: 100px;
     color:black;
     background-color: #f0db5c;
     border-radius: 15px;
     margin:0 auto;
 }
 
+
+
 .container__our{
     background-color: black;
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,7 +143,7 @@
 .event__one{
     background-color: rgba(0,0,0,0.85);
     height: 90%;
-    width: 70%;
+    width: 90%;
     margin: auto;
     color: white;
     grid-column: 2/3;
@@ -157,7 +160,7 @@
 .event__two{
     background-color: rgba(0,0,0,0.85);
     height: 90%;
-    width: 70%;
+    width: 90%;
     margin: auto;
     color: white;
     grid-column: 3/4;
@@ -172,7 +175,7 @@
 .event__three{
     background-color: rgba(0,0,0,0.85);
     height: 90%;
-    width: 70%;
+    width: 90%;
     margin: auto;
     color: white;
     grid-column: 4/5;
@@ -187,7 +190,7 @@
 .event__four{
     background-color: rgba(0,0,0,0.85);
     height: 90%;
-    width: 70%;
+    width: 90%;
     margin: auto;
     color: white;
     grid-column: 5/6;
@@ -248,20 +251,123 @@
  }
  .container__contact{
     background-color: black;
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-row: 1fr;
  }
- .container__contact--text{
-     width: 20vw;
+ .container__contact--center{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+ .container__contact--text{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: right;
     flex-wrap: wrap;
     color: white;
  }
+ .container__contact--text input{
+    width: 100%;
+ }
+.message{
+    height: 100px;
+}
+.container__contact--text button{
+    width: 80%;
+    padding:10px;
+    margin-top: 5px;
+ }
 
- 
- 
+ .btn__yellow{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    color:black;
+    background-color: #f0db5c;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+.btn__yellow a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+.container__buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.container__contact--img{
+    height: 100%;
+    width: 100%;
+}
+.container__contact--img img{
+    height: 90%;
+    width: 100%;
+}
+.container__footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap:wrap;
+    background-color: black;
+    
+}
+.container__footer a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+.services_payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.services_payment--img{
+    display: flex;
+    justify-content: space-around;    
+}
+.services_payment--img img{
+    height: 60px;
+    margin: 15px;    
+}
+.container__navbar--logo a{
+    margin-left: 20px;
+}
+.container__descripiton{
+    height: 20vh;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.container__descripiton p{
+    margin-top: 15px;
+}
+.container__imgs{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100vw;
+}
+.imagen img{
+    width: 70%;
+    padding: 10px 10px 30px 10px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.second__body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
