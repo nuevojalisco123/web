@@ -102,21 +102,15 @@
     justify-content: center;
     align-items: center;
 }
-.container__present--letter div p{
-   
-    font-size: 80px;
-    text-align: center;
-    color: #d9ad26;
-    
-}
+
 .container__present--letter div img{
     width: 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
 }
 .container__present--letter div a{
-    height: 40px;
-    width: 160px;
+    height: 1.5em;
+    width: 5em;
     color:black;
     background-color: #d9ad26;
     border-radius: 15px;
@@ -124,13 +118,6 @@
     text-align: center;
     justify-items: center;
 }
-.movimiento{
-    font-size: 100px;
-    
-}
-
-
-
 
 .container__our{
     padding-top: 80px;
@@ -160,20 +147,14 @@
     
     width: 100%;
     
-    font-size: 50px;
+    font-size: 2.1em;
 }
 .text__container p{
     
     width: 100%;
-    font-size: 26px;
+    font-size: 1.1em;
 }
-.text__container button{
-    color: black;
-    background-color: #d9ad26;
-    height: 30px;
-    width: 90px;
-    border-radius: 15px;
-}
+
 .container__event{
     padding-top: 120px;
     background-color: white;
@@ -195,10 +176,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    text-align: center;
-    font-size: 25px;
-
-    
+    text-align: center;    
 }
 
 .event__two{
@@ -213,9 +191,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    text-align: center;
-    font-size: 25px;
-    
+    text-align: center;    
 }
 .event__three{
    
@@ -230,7 +206,6 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 25px;
     
 }
 .event__four{
@@ -246,25 +221,13 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 25px;
     
 }
-.event__one button img{
-    height: 20px;
- }
- .event__two button img{
-    height: 20px;
- }
- .event__three button img{
-    height: 20px;
- }
- .event__four button img{
-    height: 20px;
- }
+
  .event__titles{
      height: 100%;
      display: grid;
-     grid-template-rows: 65px 60px 50px 300px 30px;
+     grid-template-rows: 2em 3em 2em 16rem;
  }
  .event__titles div{
      display: flex;
@@ -278,45 +241,25 @@
 .event__titles ul li{
     list-style: none;
 }
- .event__one button{
-    height: 70px;
-    width: 150px;
-    margin: 10px auto;
-    border-radius: 15px;
- }
+ 
  .event__one h1{
    background-color: #d9ad26;
    color: black;
    width: 100%;
  }
- .event__two button{
-    height: 70px;
-    width: 150px;
-    margin: 10px auto;
-    border-radius: 15px;
- }
+
  .event__two h1{
     background-color: #d9ad26;
     color: black;
     width: 100%;
   }
- .event__three button{
-    height: 70px;
-    width: 150px;
-    margin: 10px auto;
-    border-radius: 15px;
- }
+
  .event__three h1{
     background-color: rgb(64, 192, 224);
     color: black;
     width: 100%;
   }
- .event__four button{
-    height: 70px;
-    width: 150px;
-    margin: 10px auto;
-    border-radius: 15px;
- }
+
  .event__four h1{
     background-color:rgb(64, 192, 224);
     color: black;
@@ -328,7 +271,6 @@
 
  }
  .container__contact{
-    padding-top: 90px;
     height: 70vh;
     width: 100vw;
     display:grid;
@@ -353,9 +295,7 @@
  .container__contact--text input{
     width: 100%;
  }
-.message{
-    height: 100px;
-}
+
 .container__contact--text button{
     width: 80%;
     padding:10px;
@@ -370,9 +310,9 @@
     text-align: center;
     border: 2px solid black;
     margin-top: 5px;
-    height: 35px;
-    width: 165px;
-    padding-top: 8px;
+    height: 1.6em;
+    width: 9em;
+    padding-bottom: 0.5em;
 }
 .btn__yellow a{
     text-decoration: none;
@@ -434,16 +374,15 @@
 .container__descripiton{
     padding-top: 120px;
     height: 40vh;
-    font-size: 20px;
     text-align: center;
     
 }
 .container__descripiton h1{
-    font-size: 50px;
+    font-size: 2em;
 }
 .container__descripiton p{
     margin-top: 15px;
-    font-size: 45px;
+    font-size: 1.6em;
 }
 .container__imgs{
     
@@ -477,11 +416,14 @@
     padding-left: 15px;
 }
 .container__contact--text h1{
-    font-size: 40px;
+    font-size: 2em;
+    padding-bottom: 0.2em;
 }
 .container__contact--text h3{
-    font-size: 30px;
+    font-size: 1.2em;
+    padding-bottom: 0.2em;
 }
+
 
 .container__video{
     padding-top: 70px;
@@ -489,7 +431,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 110vh;
     margin-bottom: 30px;
     background-color: #d9ad26;
 }
@@ -505,6 +447,13 @@
 }
 .card__video div video{
     height: 40vh;
+}
+.card__video div p{
+    font-size: 1.3em;
+}
+.title__video h2{
+    padding-top: 1em;
+    font-size: 2em;
 }
 
 .item__special{
