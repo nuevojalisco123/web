@@ -166,7 +166,7 @@
 }
 .event__one{
     
-    height: 110%;
+    height: 90%;
     width: 90%;
     margin: auto;
     box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
@@ -181,7 +181,7 @@
 
 .event__two{
    
-    height: 110%;
+    height: 90%;
     width: 90%;
     margin: auto;
     box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
@@ -195,7 +195,7 @@
 }
 .event__three{
    
-    height: 110%;
+    height: 90%;
     width: 90%;
     margin: auto;
     box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
@@ -210,7 +210,7 @@
 }
 .event__four{
     
-    height: 110%;
+    height: 90%;
     width: 90%;
     margin: auto;
     box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
@@ -240,6 +240,7 @@
 }
 .event__titles ul li{
     list-style: none;
+    font-size: 0.8em;
 }
  
  .event__one h1{
