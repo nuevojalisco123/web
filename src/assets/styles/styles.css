@@ -255,6 +255,7 @@
  .event__one h1{
    background-color: #f0db5c;
    color: black;
+   width: 100%;
  }
  .event__two button{
     height: 70px;
@@ -265,6 +266,7 @@
  .event__two h1{
     background-color: #f0db5c;
     color: black;
+    width: 100%;
   }
  .event__three button{
     height: 70px;
@@ -275,6 +277,7 @@
  .event__three h1{
     background-color: rgb(64, 192, 224);
     color: black;
+    width: 100%;
   }
  .event__four button{
     height: 70px;
@@ -285,6 +288,7 @@
  .event__four h1{
     background-color:rgb(64, 192, 224);
     color: black;
+    width: 100%;
   }
  .black__button{
      background-color: black;
