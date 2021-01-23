@@ -1,7 +1,9 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    
 }
 .container__navbar{
     position: fixed;
@@ -48,7 +50,7 @@
     grid-row: 1;
 }
 .container__present{
-    position:relative;
+    /* position:relative;
     top:0;
     right:0;
     left: 0;
@@ -56,38 +58,56 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: 100vw; */
     
 
 }
-.container__present--letter div p{
-    font-family: 'Imbue', serif;
-    font-size: 60px;
-}
+
 .container__present--container{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0,0,0,0.65);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgba(0,0,0,0.25); 
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 .container__present--letter{
-        grid-column: 2/3;
-        grid-row: 2;
+        padding-top: 100px;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: repeat(6,1fr);
         color: white;
+        
 }
-.container__present--letter p{
+.container__present--letter div p{
+   
+    font-size: 80px;
+    text-align: center;
+    
+}
+.container__present--letter div h1{
     margin:10px auto;
+    font-size: 80px;
+    text-align: center;
+    background-color:#f0db5c;
+    color: black;
 }
-.container__present--letter button{
-    height: 30px;
-    width: 100px;
+.container__present--letter div a{
+    height: 40px;
+    width: 160px;
     color:black;
     background-color: #f0db5c;
     border-radius: 15px;
     margin:0 auto;
+    text-align: center;
+    justify-items: center;
 }
+.movimiento{
+    font-size: 100px;
+    
+}
+
 
 
 
@@ -118,12 +138,13 @@
 .text__container h1{
     color: white;
     width: 100%;
-    font-family: 'Imbue', serif;
-    font-size: 40px;
+    
+    font-size: 50px;
 }
 .text__container p{
     color: white;
     width: 100%;
+    font-size: 26px;
 }
 .text__container button{
     color: black;
@@ -134,7 +155,7 @@
 }
 .container__event{
     background-color: white;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
@@ -153,6 +174,7 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    font-size: 25px;
 
     
 }
@@ -170,6 +192,7 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    font-size: 25px;
     
 }
 .event__three{
@@ -185,6 +208,7 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    font-size: 25px;
     
 }
 .event__four{
@@ -200,6 +224,7 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    font-size: 25px;
     
 }
 .event__one button img{
@@ -222,32 +247,49 @@
      flex-wrap: wrap;
  }
  .event__one button{
-    height: 30px;
+    height: 70px;
     width: 150px;
     margin: 10px auto;
     border-radius: 15px;
+ }
+ .event__one h1{
+   background-color: #f0db5c;
+   color: black;
  }
  .event__two button{
-    height: 30px;
+    height: 70px;
     width: 150px;
     margin: 10px auto;
     border-radius: 15px;
  }
+ .event__two h1{
+    background-color: #f0db5c;
+    color: black;
+  }
  .event__three button{
-    height: 30px;
+    height: 70px;
     width: 150px;
     margin: 10px auto;
     border-radius: 15px;
  }
+ .event__three h1{
+    background-color: rgb(64, 192, 224);
+    color: black;
+  }
  .event__four button{
-    height: 30px;
+    height: 70px;
     width: 150px;
     margin: 10px auto;
     border-radius: 15px;
  }
+ .event__four h1{
+    background-color:rgb(64, 192, 224);
+    color: black;
+  }
  .black__button{
      background-color: black;
      color: white;
+
  }
  .container__contact{
     background-color: black;
@@ -265,7 +307,7 @@
     align-items: center;
  }
  .container__contact--text{
-    width: 20vw;
+    width: 40vw;
     display: flex;
     justify-content: center;
     align-items: right;
@@ -284,9 +326,7 @@
     margin-top: 5px;
  }
 
- .btn__yellow{
-    height: 30px;
-    width: 100px;
+ .btn__yellow{   
     font-size: 15px;
     color:black;
     background-color: #f0db5c;
@@ -294,15 +334,22 @@
     text-align: center;
     border: 2px solid black;
     margin-top: 5px;
+    height: 45px;
+    width: 165px;
 }
 .btn__yellow a{
     text-decoration: none;
     color:black;
     text-align: center;
+    
 }
 .container__buttons{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 
+}
+.container__buttons div{
+    display: flex;
+    justify-content: center;
 }
 .container__contact--img{
     height: 100%;
@@ -310,7 +357,8 @@
 }
 .container__contact--img img{
     height: 90%;
-    width: 100%;
+    width: 90%;
+    
 }
 .container__footer{
     display: flex;
@@ -344,15 +392,20 @@
     margin-left: 20px;
 }
 .container__descripiton{
-    height: 20vh;
+    height: 90vh;
     padding-top: 50px;
     background-color: black;
     color: white;
     font-size: 20px;
     text-align: center;
+    
+}
+.container__descripiton h1{
+    font-size: 50px;
 }
 .container__descripiton p{
     margin-top: 15px;
+    font-size: 45px;
 }
 .container__imgs{
     background-color: black;
@@ -371,3 +424,33 @@
     display: flex;
     justify-content: center;
 }
+
+.video{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: auto;
+    z-index: -1;
+    overflow: hidden;
+
+}
+.jusctify__left{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+}
+.container__contact--text h1{
+    font-size: 40px;
+}
+.container__contact--text h3{
+    font-size: 30px;
+}
+/* 
+media queries */
+
