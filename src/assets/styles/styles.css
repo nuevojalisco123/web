@@ -1,18 +1,20 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lato', sans-serif;
     font-size: 25px;
     
 }
 .container__navbar{
     position: fixed;
     width: 100vw;
+    height: 100px;
     display: grid;
-    grid-template-columns: 6fr 1fr;
-    background-color: none;
+    grid-template-columns: 4fr  1fr 1fr 1fr 1fr 1fr 2fr;
+    background-color: rgba(0,0,0,0.85);
     z-index: 10;
-    background-color: black;
+
 }
 .container__navbar--logo {
     display: flex;
@@ -21,9 +23,23 @@
     height: 100%;
     font-weight:bold;
 }
+.container__navbar--select {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    font-weight:bold;
+}
+.container__navbar--select a{
+    text-decoration: none;
+    color: #d9ad26;
+}
 .container__navbar--logo a{
     text-decoration: none;
-    color: #f0db5c;
+    color: #d9ad26;
+}
+.container__navbar--logo a img{
+    height: 120px;
 }
 .container__navbar--redes{
     display: flex;
@@ -37,8 +53,8 @@
     grid-template-columns: 1fr 1fr;
 }
 .navbar__icons a img{
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     padding-right:30px;
 }
 .facebook__icon{
@@ -50,15 +66,15 @@
     grid-row: 1;
 }
 .container__present{
-    /* position:relative;
+    position:relative;
     top:0;
     right:0;
     left: 0;
-    background-image: url("../images/portada.jpg") !important;
+    background-image: url("../images/portada2.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 100vw; */
+    width: 100vw; 
     
 
 }
@@ -77,27 +93,32 @@
         height: 100vh;
         display: grid;
         grid-template-rows: repeat(6,1fr);
-        color: white;
+       
         
+}
+.container__logo--img{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container__present--letter div p{
    
     font-size: 80px;
     text-align: center;
+    color: #d9ad26;
     
 }
-.container__present--letter div h1{
-    margin:10px auto;
-    font-size: 80px;
-    text-align: center;
-    background-color:#f0db5c;
-    color: black;
+.container__present--letter div img{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 .container__present--letter div a{
     height: 40px;
     width: 160px;
     color:black;
-    background-color: #f0db5c;
+    background-color: #d9ad26;
     border-radius: 15px;
     margin:0 auto;
     text-align: center;
@@ -112,7 +133,7 @@
 
 
 .container__our{
-    background-color: black;
+    padding-top: 80px;
     height: 60vh;
     width: 100vw;
     display: grid;
@@ -128,7 +149,7 @@
 }
 
 .text__container{
-    color: white;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,37 +157,38 @@
     width: 70%;
 }
 .text__container h1{
-    color: white;
+    
     width: 100%;
     
     font-size: 50px;
 }
 .text__container p{
-    color: white;
+    
     width: 100%;
     font-size: 26px;
 }
 .text__container button{
     color: black;
-    background-color: #f0db5c;
+    background-color: #d9ad26;
     height: 30px;
     width: 90px;
     border-radius: 15px;
 }
 .container__event{
+    padding-top: 120px;
     background-color: white;
-    height: 100vh;
+    height: 88vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .event__one{
-    background-color: rgba(0,0,0,0.85);
-    height: 90%;
+    
+    height: 110%;
     width: 90%;
     margin: auto;
-    color: white;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
     grid-column: 2/3;
     grid-row: 1;
     display: flex;
@@ -180,11 +202,11 @@
 }
 
 .event__two{
-    background-color: rgba(0,0,0,0.85);
-    height: 90%;
+   
+    height: 110%;
     width: 90%;
     margin: auto;
-    color: white;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
     grid-column: 3/4;
     grid-row: 1;
     display: flex;
@@ -196,11 +218,11 @@
     
 }
 .event__three{
-    background-color: rgba(0,0,0,0.85);
-    height: 90%;
+   
+    height: 110%;
     width: 90%;
     margin: auto;
-    color: white;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
     grid-column: 4/5;
     grid-row: 1;
     display: flex;
@@ -212,11 +234,11 @@
     
 }
 .event__four{
-    background-color: rgba(0,0,0,0.85);
-    height: 90%;
+    
+    height: 110%;
     width: 90%;
     margin: auto;
-    color: white;
+    box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.75);
     grid-column: 5/6;
     grid-row: 1;
     display: flex;
@@ -241,11 +263,21 @@
  }
  .event__titles{
      height: 100%;
+     display: grid;
+     grid-template-rows: 65px 60px 50px 300px 30px;
+ }
+ .event__titles div{
      display: flex;
      justify-content: center;
      align-items: center;
-     flex-wrap: wrap;
  }
+ .event__titles div img{
+    height: 60px;
+    width: 60px;
+}
+.event__titles ul li{
+    list-style: none;
+}
  .event__one button{
     height: 70px;
     width: 150px;
@@ -253,7 +285,7 @@
     border-radius: 15px;
  }
  .event__one h1{
-   background-color: #f0db5c;
+   background-color: #d9ad26;
    color: black;
    width: 100%;
  }
@@ -264,7 +296,7 @@
     border-radius: 15px;
  }
  .event__two h1{
-    background-color: #f0db5c;
+    background-color: #d9ad26;
     color: black;
     width: 100%;
   }
@@ -296,7 +328,7 @@
 
  }
  .container__contact{
-    background-color: black;
+    padding-top: 90px;
     height: 70vh;
     width: 100vw;
     display:grid;
@@ -316,7 +348,7 @@
     justify-content: center;
     align-items: right;
     flex-wrap: wrap;
-    color: white;
+ 
  }
  .container__contact--text input{
     width: 100%;
@@ -333,19 +365,20 @@
  .btn__yellow{   
     font-size: 15px;
     color:black;
-    background-color: #f0db5c;
+    background-color: #d9ad26;
     border-radius: 15px;
     text-align: center;
     border: 2px solid black;
     margin-top: 5px;
-    height: 45px;
+    height: 35px;
     width: 165px;
+    padding-top: 8px;
 }
 .btn__yellow a{
     text-decoration: none;
     color:black;
-    text-align: center;
-    
+    text-align: center; 
+       
 }
 .container__buttons{
     display: grid;
@@ -354,6 +387,9 @@
 .container__buttons div{
     display: flex;
     justify-content: center;
+}
+.container__buttons div a{
+    border: 2px solid black;
 }
 .container__contact--img{
     height: 100%;
@@ -369,12 +405,12 @@
     justify-content: center;
     text-align: center;
     flex-wrap:wrap;
-    background-color: black;
+   
     
 }
 .container__footer a{
     text-decoration: none;
-    color: white;
+    
     padding-bottom: 20px;
 }
 .services_payment{
@@ -396,10 +432,8 @@
     margin-left: 20px;
 }
 .container__descripiton{
-    height: 90vh;
-    padding-top: 50px;
-    background-color: black;
-    color: white;
+    padding-top: 120px;
+    height: 40vh;
     font-size: 20px;
     text-align: center;
     
@@ -412,7 +446,7 @@
     font-size: 45px;
 }
 .container__imgs{
-    background-color: black;
+    
     display: grid;
     grid-template-columns: repeat(4,1fr);
     width: 100vw;
@@ -424,21 +458,14 @@
     background-color: white;
 }
 .second__body{
-    background-color: black;
+  
     display: flex;
     justify-content: center;
 }
 
 .video{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    width: 100vw;
-    height: auto;
-    z-index: -1;
-    overflow: hidden;
+    border: 2px solid black;
+  box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.85);
 
 }
 .jusctify__left{
@@ -455,6 +482,55 @@
 .container__contact--text h3{
     font-size: 30px;
 }
+
+.container__video{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin-bottom: 30px;
+    background-color: #d9ad26;
+}
+.card__video{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card__video div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.card__video div video{
+    height: 40vh;
+}
+
+.item__special{
+    grid-row: 3;
+    grid-column: 1 / 7;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+.item__special a{
+    height: 50px;
+    width: 350px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+}
+.item__special a img{
+    height: 45px;
+}
+
+
+
+
+
+
 /* 
 media queries */
 

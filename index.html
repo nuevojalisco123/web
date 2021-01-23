@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mariachis</title>
     <link rel="stylesheet" href="./src/assets/styles/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Imbue:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Hind+Siliguri:wght@300&family=Imbue:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
 </head>
 <body >
     <section class="container__navbar">
         <div class="container__navbar--logo">
-            <a href="#">Mariachi Nuevo Jalisco</a>
+            <a href="#"><img src="./src/assets/images/logomariachi.png" alt=""></a>
+        </div>
+        <div class="container__navbar--select">
+            <a href="#our">Nosotros</a>
+        </div>
+        <div class="container__navbar--select">
+            <a href="#event">Serenatas</a>
+        </div>
+        <div class="container__navbar--select">
+            <a href="#voice">Voces</a>
+        </div>
+        <div class="container__navbar--select">
+            <a href="./src/galeria.html">Galeria</a>
+        </div>
+        <div class="container__navbar--select">
+            <a href="#contact">Contáctanos</a>
         </div>
         <div class="container__navbar--redes">
             <div class="navbar__icons">
@@ -30,29 +39,19 @@
         <div class="container__present--container">
             <div class="container__present--letter">
                 <div class="jusctify__left">
-                    <p>Bienvenid@s a</p>  
+                   <!--  <p>Bienvenid@s a</p>  --> 
                 </div>
-                <div>
-                    
-                </div>
+        
                 <div></div>
                     <div></div>
-                <div>
-                    <h1>MARIACHI NUEVO JALISCO</h1>
+                <div class="container__logo--img">
+                   <img src="./src/assets/images/logomariachi.png" alt="">
                 </div>                
                     
                     <div class="container__buttons">
                         <div ><a  href="#our">Conócenos</a> </div>
                         <div ><a  href="tel:+573138534821">Llámanos</a> </div>
                     </div>
-                
-                <div>
-                    <div class="container__video">
-                        <video class="video" autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="30">
-                            <source src="./src/assets/images/WhatsApp Video 2021-01-10 at 16.43.59.3gpp" type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
             </div>
         </div>
             
@@ -68,29 +67,65 @@
                 <div class="btn__yellow"><a  href="./src/galeria.html">Ver Galeria</a> </div>
             </div>
     </section>
-    <section class="container__event">
+    <section id="voice" class="container__video">
+        <div class="title__video">
+            <h2> Las voces del grupo</h2>
+        </div>
+        <div class="datils__video">
+            <div class="card__video">
+                <div>
+                    <p> Enrique un mariachi con años de experiencia, el cual a logrado entonar hermosas melodias para hacer de tu tarde mariachis, un momento inolvidable</p>
+                </div>
+                <div>
+                    <video class="video" controls id="demo">
+                        <source src="./src/assets/images/WhatsApp Video 2021-01-10 at 16.43.59.3gpp" type="video/mp4" />
+                        <code>Video</code>
+                    </video>  
+                </div>
+            </div>
+            <div class="card__video">
+                <div>
+                    <video class="video" controls id="demo">
+                        <source src="./src/assets/images/WhatsApp Video 2021-01-10 at 16.43.59.mp4" type="video/mp4" />
+                        <code>Video</code>
+                    </video>  
+                </div>
+                <div>
+                    <p> Lolita una mariachi con años de experiencia, el cual a logrado entonar hermosas melodias para hacer de tu tarde mariachis, un momento inolvidable</p>
+                </div>
+            </div>
+        </div>
+       
+
+    </section>
+    <section id="event" class="container__event">
         <div class="event__one">
             <div class="event__titles">
-            <h1>SERENATA SENCILLA</h1>
+                <div>
+                    <img src="./src/assets/images/gift.png" alt="">
+                </div>
+            <h1> SERENATA SENCILLA</h1>
             <p>$ 170.000 </p>
             <ul>
                 <li>8 canciones completas</li>
-                <li></li>
+               
                 <li>6 integrantes muy bien uniformados voz masculina y femenina</li>
-                <li></li>
+                
                 <li>Amplificacion de sonido y transporte</li>
-                <li></li>
+                
                 <li>Recordatorio mexicano</li>
-                <li></li>
+                
                 <li>Caja de Chocolates </li>               
-                <li></li>
+                
             </ul>
             </div>
-            <div class="btn__yellow border__black"><a  href="./src/galeria.html">Ver Galeria</a> </div>
-            <button class="black__button">Solicitar informes <img src="./src/assets/images/iconos/icons8-whatsapp-128.png" alt=""></button>
+           
         </div>
         <div class="event__two">
             <div class="event__titles">
+                <div>
+                    <img src="./src/assets/images/gift.png" alt="">
+                </div>
             <h1>SERENATA ESPECIAL</h1>
             <p>$ 190.000</p>
             <ul>
@@ -101,15 +136,17 @@
                 <li>Amplificación de sonido y transporte</li>
                 <li>Caja Chocolates</li>
                 <li>Recordatorio mexicano</li>
-                <li></li>
-                <li></li>
+
             </ul>
             </div>
-            <div class="btn__yellow"><a  href="./src/galeria.html">Ver Galeria</a> </div>
-            <button class="black__button">Solicitar informes <img src="./src/assets/images/iconos/icons8-whatsapp-128.png" alt=""></button>
+            
         </div>
         <div class="event__three">
             <div class="event__titles">
+                <div>
+                    <img src="./src/assets/images/gift.png" alt="">
+                </div>
+            
             <h1>SERENATA SUPER ESPECIAL</h1>
             <p> $ 210.000</p>
             <ul>
@@ -124,12 +161,14 @@
                 <li></li>
             </ul>
             </div>
-            <div class="btn__yellow"><a  href="./src/galeria.html">Ver Galeria</a> </div>
-            <button class="black__button">Solicitar informes <img src="./src/assets/images/iconos/icons8-whatsapp-128.png" alt=""></button>
+            
         </div>
 
         <div class="event__four">
             <div class="event__titles">
+                <div>
+                    <img src="./src/assets/images/gift.png" alt="">
+                </div>
             <h1>SERENATA SUPER ESPECIAL</h1>
             <p>$ 380.000</p>
             <ul>
@@ -143,11 +182,13 @@
                 <li>Recordatorio mexicano</li>
             </ul>
             </div>
-            <div class="btn__yellow"><a  href="./src/galeria.html">Ver Galeria</a> </div>
-            <button  class="black__button">Solicitar informes <img src="./src/assets/images/iconos/icons8-whatsapp-128.png" alt=""></button>
         </div>
+        <section class="item__special">
+            <a href="https://api.whatsapp.com/send?phone=+573138534821" class="black__button">Solicitar informes <img src="./src/assets/images/iconos/icons8-whatsapp-128.png" alt=""></a>
+        </section>
+    
     </section>
-    <section class="container__contact">
+    <section class="container__contact" id="contact">
         <div class="container__contact--center">
             <div class="container__contact--text">
                 <h1>Una serenata inolvidable</h1>
