@@ -121,7 +121,7 @@
 
 .container__our{
     padding-top: 80px;
-    height: 60vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -158,7 +158,7 @@
 .container__event{
     padding-top: 120px;
     background-color: white;
-    height: 88vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
