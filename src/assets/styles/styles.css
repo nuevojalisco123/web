@@ -272,6 +272,7 @@
 
  }
  .container__contact{
+     padding-top: 50px;
     height: 70vh;
     width: 100vw;
     display:grid;
