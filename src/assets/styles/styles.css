@@ -674,8 +674,65 @@ media queries */
         height: 100px;
     }
 
+    .container__event{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 1700px;
+    }
+    .event__one{
+        height: 400px;
 
-
+    }
+    .event__two{
+        height: 400px;
+    }
+    .event__three{
+        height: 400px;
+    }
+    .event__four{
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .container__contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .container__contact--img{
+        height: 300px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container__contact--img img{
+        height: 300px;
+        display: none;
+    }
+    
+    .event__titles ul li{
+        font-size: 20px;
+    }
+    .container__footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: black;
+        color: white;
+    }
+    .container__footer p{
+        width: 100%;
+    }
+    .container__footer a{
+        width: 100%;
+        color: white;
+        
+    }
 }
 
 @media screen and (max-width: 500px){
