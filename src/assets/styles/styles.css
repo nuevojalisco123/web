@@ -6,6 +6,9 @@
     font-size: 25px;
     
 }
+.mobil_wtp {
+ display: none;       
+}
 .container__navbar{
     position: fixed;
     width: 100vw;
@@ -400,9 +403,13 @@
 }
 .imagen img{
     width: 70%;
+    margin: 0 15%;
     padding: 10px 10px 30px 10px;
     margin-bottom: 30px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second__body{
   
@@ -534,6 +541,14 @@ media queries */
     .container__navbar--logo a img{
         height: 100px;
     }
+    .container__descripiton h1{
+        font-size: 2em;
+    }
+    .container__descripiton p{
+        margin-top: 15px;
+        font-size: 1.1em;
+        padding: 30px;
+    }
 
 }
 
@@ -630,10 +645,26 @@ media queries */
     .container__contact--text p{
         text-align: center;
     }
-
+    .container__imgs{
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100vw;
+    }
 }
 
 @media screen and (max-width: 864px){
+    .expired{
+        display: none;
+    }
+    .navbar__icons{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .container__navbar{
+        grid-template-columns: 2fr  2fr 2fr;
+    }
     .container__our{
         height: 85vh;
     }
@@ -657,6 +688,26 @@ media queries */
     }
     .event__titles h1{
         font-size: 18px;
+    }
+    .container__imgs{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    .mobil_wtp {
+     display: block;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     z-index: 12;
+     margin-bottom: 20px;
+     margin-right: 20px;
+    }
+    .mobil_wtp img{
+        height: 65px;
     }
 }
 
@@ -762,8 +813,24 @@ media queries */
         color: #d9ad26;
         
     }
+    .container__descripiton h1{
+        font-size: 2em;
+    }
+    .container__descripiton p{
+        margin-top: 15px;
+        font-size: 1.1em;
+        padding: 30px;
+    }
+    .container__descripiton {
+        height: 300px;
+    }
+   
 }
 
 @media screen and (max-width: 500px){
+   
+}
 
+@media screen and (max-width: 400px){
+    
 }
