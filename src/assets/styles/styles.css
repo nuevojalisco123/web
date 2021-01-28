@@ -580,6 +580,8 @@ media queries */
     }
     .container__navbar--select a{
         text-align: center;
+        width: 100%;
+        margin: 0 auto;
     }
     .menu__btn{
         display: flex;
@@ -654,6 +656,11 @@ media queries */
 }
 
 @media screen and (max-width: 864px){
+    .container__navbar--select a{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
     .expired{
         display: none;
     }

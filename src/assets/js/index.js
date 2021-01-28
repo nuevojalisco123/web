@@ -15,3 +15,10 @@ function hideShow(menuId,guitarId,closeId){
     }
 
 }
+function onlyHideShow(menuId){
+
+    const menu=document.querySelector(menuId);
+        menu.classList.remove('aparece');
+
+
+}
