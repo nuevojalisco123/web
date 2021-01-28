@@ -828,9 +828,54 @@ media queries */
 }
 
 @media screen and (max-width: 500px){
-   
+   .container__our{
+       height: 800px;
+   }
+   .container__descripiton{
+    height: 300px;
+}
 }
 
 @media screen and (max-width: 400px){
-    
+    .container__video{
+        height: 900px;
+        justify-content: space-between;
+    }
+    .title__video{
+        height: 20px;
+    }
+    .title__video h2{
+        margin: 0;
+        padding: 0;
+        height: 20px;
+    }
+    .video{
+        width: 300px;
+    }
+    .card__video div{
+        margin:0 auto;
+        padding: 0;
+    }
+    .card__video div p{
+        padding-left: 15px;
+    }
+    .container__contact{
+        height: 1000px;
+    }
+    .logo__normal img{
+        width: 280px;
+        height: auto;
+    }
+    .container__descripiton{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 400px){
+    .logo__normal img{
+        width: 240px;
+        height: auto;
+    }
+    .container__video{
+        height: 1000px;
+    }
 }
