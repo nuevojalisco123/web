@@ -878,4 +878,10 @@ media queries */
     .container__video{
         height: 1000px;
     }
+    .title__video{
+        padding-left: 20px;
+    }
+    .event__four{
+        height: 450px;
+    }
 }
