@@ -967,7 +967,10 @@ media queries */
    }
    .container__descripiton{
     height: 300px;
-}
+    }
+    .container__repert{
+    height: 6000px;    
+    }
 }
 
 @media screen and (max-width: 400px){
