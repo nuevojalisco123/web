@@ -283,7 +283,7 @@
  }
  .container__contact{
      padding-top: 50px;
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -632,6 +632,9 @@
     border:7px solid black ;
     font-size: 20px;
 
+}
+.height__width{
+    height: 40px !important;
 }
 
 /* 
