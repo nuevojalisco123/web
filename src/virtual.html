@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariachi Nuevo Jalisco</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+</head>
+<body >
+    <section class="container__navbar">
+        <div class="container__navbar--logo">
+            <a class="logo__normal" href="../"><img src="./assets/images/logomariachi.png" alt=""></a>
+        </div>
+        <div  id="menu" class="menu">
+            <div class="container__navbar--select">
+                <a href="#our" onClick="onlyHideShow('#menu','#btnmenu','close')">Nosotros</a>
+            </div>
+            <div class="container__navbar--select">
+                <a href="#event" onClick="onlyHideShow('#menu','#btnmenu','close')">Serenatas</a>
+            </div>
+            <div class="container__navbar--select">
+                <a href="#repertorio" onClick="onlyHideShow('#menu','#btnmenu','close')">Repertorio</a>
+            </div>
+            <div class="container__navbar--select">
+                <a href="#voice" onClick="onlyHideShow('#menu','#btnmenu','close')">Voces</a>
+            </div>
+            <div class="container__navbar--select">
+                <a href="#" onClick="onlyHideShow('#menu','#btnmenu','close')">Serenata Virtual</a>
+            </div>
+            <div class="container__navbar--select">
+                <a href="/src/galeria.html" onClick="onlyHideShow('#menu','#btnmenu','close')">Galeria</a>
+            </div>
+            <div class="container__navbar--select">
+                <a href="/src/galeria.html#videos" onClick="onlyHideShow('#menu','#btnmenu','close')">Videos</a>
+            </div>
+            <div class="container__navbar--select">
+                <a href="#contact" onClick="onlyHideShow('#menu','#btnmenu','close')">Contáctanos</a>
+            </div>
+        </div>
+        
+        <div class="container__navbar--redes">
+            <div class="navbar__icons">
+                <a class="facebook__icon expired"href="https://www.facebook.com/Mariachi-nuevo-jalisco-365498534140160/" target="_blank" ><img class="icon__size" src="./assets/images/iconos/icons8-facebook-100.png" alt=""></a>
+                <a class="facebook__icon expired"href="https://www.instagram.com/mariachinuevojalisco92/" target="_blank" ><img class="icon__size" src="./assets/images/iconos/instagram.png" alt=""></a>
+                <a class="facebook__icon expired"href="tel:+573138534821" target="_blank" ><img class="icon__size" src="./assets/images/iconos/phone.png" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=+573138534821" target="_blank" class="whatsapp__icon expired"><img class="icon__size" src="./assets/images/iconos/icons8-whatsapp-128.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section class="virtual__container">
+        <div class="virtual__container--body">
+            <div class="virtual__container--body__img">
+                <img src="./assets/images/1.jpeg" alt="">
+            </div>
+            <div class="virtual__container--body__descriptions">
+                <div><h1>Serenata Virtual</h1></div>
+                <div><p>Llegamos para ayudarte, y poderte conectar con 
+                    tu seres queridos, entendemos que son tiempos de prevención
+                     y e estar en casa, evitar el la propagación, pero sabemos 
+                     que quieres hacer sentir especial a tus seres queridos, 
+                     por eso el Mariachi Nuevo Jalisco, te trae esta magnifica 
+                     oportunidad de regalar una serenata virtual, para que puedas 
+                     vivir estos momentos mágicos de forma segura.</p></div>
+                <div><a href="https://api.whatsapp.com/send?phone=+573138534821" target="_blank">Cotiza tu serenata ahora mismo!!</a></div>
+            </div>
+        </div>
+    </section>
+   
+
+    <section class="container__footer">
+        <p>MARIACHI NUEVO JALISCO</p>
+        <a href="tel:+573138534821">Tel: 313-853-48-21</a>
+        <a href="/">www.mariachinuevojalisco.com.co</a>
+        
+        <a href="https://www.regniek.dev" target="_blank">Powered by Regniek</a>
+    </section>
+    <button id="close" class="close__btn" onClick="hideShow()"><img src="./src/assets/images/iconos/close.png" alt=""></button> 
+    <button  id="btnmenu" class="menu__btn" onClick="hideShow('#menu','#btnmenu','close')" ><p>Menu</p></button> 
+    <a href="https://api.whatsapp.com/send?phone=+573138534821" target="_blank" class="mobil_wtp"><img class="icon__size" src="./src/assets/images/iconos/icons8-whatsapp-128.png" alt=""></a>
+    <script src="./src/assets/js/index.js"></script>
+</body>
+</html>
